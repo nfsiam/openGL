@@ -1,6 +1,6 @@
 #include <windows.h>
 #include <GL/glut.h>
-#include<math.h>>
+#include<math.h>
 # define PI    3.14159265358979323846
 
 GLubyte wheat[]={245,222,179};
@@ -61,7 +61,7 @@ void circle(float x, float y, float radius)
 	glEnd();
 }
 
-background()
+void background()
 {
     glColor3ubv(deepskyblue);
     block(-2,1,1.3,4); //x,y,height,width
